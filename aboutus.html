@@ -10,74 +10,73 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	
     
+
+      <!--Other External Stylesheets-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!--Internal Stylesheets-->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/css/all.css" />
     <!--Link to Local Style.css-->
    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
   </head>
 
 	<body>
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          
-          <div class="container-fluid">
-            
-             
-              <!--TTS Logo-->
-        <div class="logo-image">
-          <a href="index.html"><img src="ttslogo.png" class="img-fluid"  width="150px" 
-            height="150px">    
-      </div>  
-      </a>        
-         <!-- <img src="ttslogo.png" class="img-fluid"  width="150px" 
-                    height="150px">    
-              </div> -->
-        <!--</a>-->
-           
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                </li>
-                  <!--Home Button on Nav bar?-->
-                  <!--<a class="nav-link active" aria-current="page" href="#">Home</a>-->
-                
-              
-                <!--First Dropdown-->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Hire Talent
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Hire Talent</a></li>
-                    <li><a class="dropdown-item" href="#">Upskill Academy</a></li>
-                  </ul>
-                
-                 
-                  <!--Second Dropdown-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Get Hired
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Join TTS</a></li>
-                      <li><a class="dropdown-item" href="#">Graduate Accelerator Program (GAP)</a></li>
-                      <li><a class="dropdown-item" href="#">Veterans Tech Accelerator (VTA)</a></li>
-                      <li><a class="dropdown-item" href="#">Apply for Open Jobs</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                  </li>
-                 
-                  <!--Get Started Button-->
-                  <li><div class="order-button text-center">
-                    <a href="#" class="btn btn-primary">Get Started</a>
-                 </div></li>
-            </div>
-          </div>
-        </nav>
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="https://www.techtalentsouth.com/hubfs/Nav%20Logo%20(1).png"
+        alt="logo" width="125" height="48"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Hire Talent
+          </a>
+          <ul class="dropdown-menu" aria-la belledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Hire Talent</a></li>
+            <li><a class="dropdown-item" href="#">Upskill Academy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Get Hired
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Join TTS</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Graduate Accelerator Program (GAP)</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Veterans Tech Accelerator (VTA)</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Apply for Open Jobs</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Enroll in Course</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-success" type="submit">
+          Get Started
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
 <!-- My Tech Talent Jumbotron-->
@@ -86,21 +85,35 @@
   <p>Tech Talent South, (TTS), is a woman-owned tech recruitment, training, and staffing company that believes everyone can be equipped to do something big.</p>
 </div>
 
+<!--Jumbotron Repair?-->
+<!--<div class="card bg-dark text-white text-center">
+  <img src="https://css-tricks.com/wp-content/uploads/2013/11/a-blue-box.png" class="card-img" alt="office space">
+  <div class="card-img-overlay">
+    <h1 class="card-title">About Tech Talent South </h1>
+    <p class="card-text">At Tech Talent South, we serve organizations of all sizes by providing diverse talent pipelines supported by over 100 hours of data on every candidate. We help our hiring partners drive growth, innovation, and diversity through our proven recruiting, training, and staffing services.
+    </p>
+    <button class="btn btn-outline-success" type="submit">
+      Hire Talent
+    </button>    </div>
+</div>-->
+
+
 <!--my shot at content-->
 <div class="row justify-content-center">
   <div class="col-4">
-    Tech Talent South, (TTS), is a woman-owned tech recruitment, training, and staffing company that believes everyone can be equpiied to do something big.
+    <p style="font-size:25px;"><b>Tech Talent South, (TTS), is a woman-owned tech recruitment, training, and staffing company that believes everyone can be equpiied to do something big.</b>></p>
   </div>
   <div class="col-4">
    
-   TTS has the unique ability to access individuals with aptitude, equip them with technical skills and pipeline them to corporate partners in a rapid timeframe - cutting employer recruiting costs and the talent education timeline.
+    <p style="color:grey;">TTS has the unique ability to access individuals with aptitude, equip them with technical skills and pipeline them to corporate partners in a rapid timeframe - cutting employer recruiting costs and the talent education timeline.</p>
 <br>
-<br>TTS is consistently voted one of the best coding schools with Switchup ranking TTS #1 in Charlotte, Columbus, New Orleans, and San Antonio and  #11 globally. Additionally, TTS was voted second in the nation for women on LinkedIn. Students appreciate the collaborative and creative classroom experience, and our corporate partners value how well TTS customizes and updates the curriculum to meet their current needs. TTS’ commercial model typically follows train-to-hire and contract-to-hire models in both foundational courses and corporate engagements. Click here for a general overview on Tech Talent South. 
+<br>
+<p style="color:grey;">TTS is consistently voted one of the best coding schools with Switchup ranking TTS #1 in Charlotte, Columbus, New Orleans, and San Antonio and  #11 globally. Additionally, TTS was voted second in the nation for women on LinkedIn. Students appreciate the collaborative and creative classroom experience, and our corporate partners value how well TTS customizes and updates the curriculum to meet their current needs. TTS’ commercial model typically follows train-to-hire and contract-to-hire models in both foundational courses and corporate engagements. Click here for a general overview on Tech Talent South. </p>
     
       </div>
     </div>
   
-     <!--Footer-->
+<!--Footer-->
   <footer>
     <div class="footer">
       <div class="footer-clean">
@@ -149,6 +162,7 @@
       </div>
     </div>
   </footer>
+
 
 <!--Bootstrap JS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
