@@ -27,7 +27,19 @@
   border-color: #0C63FF;
 }
 
-.navbar-nav {
+.navbar {
+  display: grid;
+  justify-content: space-around;
+}
+
+.navbar .navbar-brand{
+  margin-right: 525px;
+  margin-bottom: 10px;
+
+
+}
+
+.navbar .navbar-nav {
   font-size: 14.4px;
   color: #87909E;
   padding: 0px 16px;
@@ -35,12 +47,37 @@
 
 .navbar-nav:hover {
   color: #0C63FF;
+  
 }
-
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
 .dropdown-menu .dropdown-item {
   font-size: 14.4px;
   color: #87909E;
+  display: block;
 }
+
+.dropdown-menu .dropdown-item:hover {
+  color: #0C63FF;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+/*work on making navbar hover blue
+.nav-item:hover li {
+ color: #0C63FF;
+}
+*/
 
 /*Body*/
 
@@ -48,7 +85,7 @@
   font-family: Poppins, sans-serif;
   font-size: 40px;
   margin: 0px 0px 20px;
-  text-align: center;
+  
 }
 
 .card-text {
@@ -90,14 +127,8 @@
 }
 
 .card-img {
+  height: 100%;
   width: 100%;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-top: 0px;
-  border-radius: 0px;
 }
 
 .card-img-overlay {
@@ -190,7 +221,7 @@ margin: 0px 0px 20px;
   height: 44.2px;
   width: 137px;
   text-align: center;
-  padding: 5px 7.5px;
+  padding: 2px 7.5px;
   border: 1px solid;
   border-color: white;
   float: right;
