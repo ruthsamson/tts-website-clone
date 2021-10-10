@@ -72,18 +72,18 @@
 
 .dropdown-menu .dropdown-item:hover {
   color: #0C63FF;
-  background-color: white;
+  background-color: white!important;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
 
 }
-/*work on making navbar hover blue
-.nav-item:hover li {
- color: #0C63FF;
+
+.nav-link:hover{
+  color: #0C63FF !important;
 }
-*/
+
 
 /*Body*/
 
