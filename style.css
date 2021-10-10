@@ -339,6 +339,16 @@ overflow: visible;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 50%;
+  height: 400px;
+}
+
+.card-img-overlay video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 50px 0px 0px;
+
 }
 
 
