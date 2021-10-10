@@ -3,6 +3,11 @@
   font-family: Poppins, sans-serif;
 }
 
+.jumbotron {
+  background-color: #0C63FF;
+    font-weight: 900;
+  }
+
 /*NavBar*/
 
 .btn {
@@ -226,12 +231,13 @@ text-align: center;
 }
 
 .ready .text-1 button{
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 /*fix button position */
 .ready .text-2 button{
-  margin: auto;
+  margin-left: auto;
+ 
 }
 
 .ready img {
@@ -255,7 +261,23 @@ text-align: center;
 
 }
 
+.card-box {
+  text-align: center;
+  z-index: -1;
+}
 
+.card-box p{
+  text-align: left;
+  font-family: Poppins, sans-serif;
+
+}
+
+.card-box .ceo {
+  text-align: left;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 20px; 
+}
 
 .testimonial h3 {
   font-family: Poppins, sans-serif;
@@ -266,15 +288,25 @@ text-align: center;
   text-align: center;
 
 }
-/*working on cardbox*/
-.testimonial .card-box{
-background-color: olivedrab;
+
+.testimonial img{
+border: 90%;
+height: 96px; 
+width: 96px;
+position: relative;
+margin-right: 150px;
+background-position: center;
+background-size: cover;
+border-color: #0C63FF !important;
+overflow: visible;
+/*margin-top: -48px;*/
 }
+
 .info h6{
   font-size: 16px;
   color: #30343b;
   font-weight: 600;
-  padding: 50px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
   margin: 0% 20% 10px;
 
 }
@@ -380,8 +412,6 @@ background-color: olivedrab;
   padding: 50px 0;
   background-color: #f8f9fa;
   color: #87909E;
-  display: grid;
-  justify-content: right;
 }
 
 .footer-clean h3 {
@@ -390,8 +420,7 @@ background-color: olivedrab;
   font-weight: 600;
   font-size: 16px;
   color: black;
-  display: grid;
-  justify-content: left;
+  
 }
 
 .footer-clean ul {
@@ -414,7 +443,7 @@ background-color: olivedrab;
 }
 
 .footer-clean .social {
- text-align: left;
+ text-align: right;
 }
 
 @media (max-width:767px) {
@@ -426,8 +455,7 @@ background-color: olivedrab;
 
 @media (max-width: 768px) {
   .footer-clean .item.social {
-    display: grid;
-    justify-content: left;
+   text-align: center;
   }
 }
 
@@ -435,10 +463,16 @@ background-color: olivedrab;
   font-size: 24px;
   width: 40px;
   height: 40px;
-  display: inline-block;
   color: inherit;
   opacity: 0.75;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
 
+}
+
+.footer-clean .social .icon {
 }
 
 .footer-clean .item.social>a:hover {
@@ -453,19 +487,12 @@ background-color: olivedrab;
 
 @media (max-width:767px) {
   .footer-clean .item.social>a {
-    margin-top: 10px;
-  }
+    margin-top: 10px;  }
 }
 
-/* working on shifting left
-.footer-clean .litem {
-}
+
 .footer-clean .img-footer {
-  background-color: aqua;
-  
- 
 }
-*/
 
 .footer-clean .copyright {
   margin-top: 14px;
