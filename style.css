@@ -235,8 +235,9 @@ text-align: center;
 }
 
 /*fix button position */
-.ready .text-2 button{
-  margin-left: auto;
+.ready .text-2 .btn-hire{
+margin: auto;  
+float: right;
  
 }
 
