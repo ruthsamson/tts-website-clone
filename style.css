@@ -5,8 +5,8 @@
 
 .jumbotron {
   background-color: #0C63FF;
-    font-weight: 900;
-  }
+  font-weight: 900;
+}
 
 /*NavBar*/
 
@@ -38,11 +38,9 @@
   justify-content: space-around;
 }
 
-.navbar .navbar-brand{
+.navbar .navbar-brand {
   margin-right: 525px;
   margin-bottom: 10px;
-
-
 }
 
 .navbar .navbar-nav {
@@ -53,17 +51,19 @@
 
 .navbar-nav:hover {
   color: #0C63FF;
-  
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
+
 .dropdown-menu {
   display: none;
   position: absolute;
   z-index: 1;
 }
+
 .dropdown-menu .dropdown-item {
   font-size: 14.4px;
   color: #87909E;
@@ -77,13 +77,11 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
-
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #0C63FF !important;
 }
-
 
 /*Body*/
 
@@ -93,7 +91,6 @@
   font-size: 40px;
   margin-bottom: 20px;
   text-align: center;
-  
 }
 
 .card-text {
@@ -102,7 +99,6 @@
   text-align: center;
   width: auto;
   margin-bottom: 50px;
- 
 }
 
 .btn-hire {
@@ -119,9 +115,8 @@
   border-color: #0C63FF;
   margin-left: 40%;
   margin-right: 40%;
-
-  
 }
+
 .btn-hire:hover {
   background-color: #0C70FF;
   color: white;
@@ -136,7 +131,6 @@
   position: relative;
   overflow: hidden;
   background-color: white;
-
 }
 
 .card-img {
@@ -146,25 +140,23 @@
 
 .card-img-overlay {
   background-color: #33323D80;
-
 }
 
-.card-img-overlay .txt{
+.card-img-overlay .txt {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-
 .under h4 {
-font-family: Poppins, sans-serif;
-font-style: bolder;  
-font-size: 28px;
-font-weight: 600;
-color: #30343b;
-margin: 0px 0px 20px;
-text-align: center;
+  font-family: Poppins, sans-serif;
+  font-style: bolder;
+  font-size: 28px;
+  font-weight: 600;
+  color: #30343b;
+  margin: 0px 0px 20px;
+  text-align: center;
 }
 
 .under .text-muted {
@@ -172,8 +164,6 @@ text-align: center;
   font-size: 16px;
   color: #87909E;
   text-align: center;
-
-
 }
 
 .boxes h4 {
@@ -183,15 +173,14 @@ text-align: center;
   color: #30343b;
   margin: 0px 0px 12px;
   text-align: center;
-
 }
+
 .boxes .text-muted {
   font-size: 16px;
   font-style: Poppins, sans-serif;
   color: #87909E;
   text-align: center;
 }
-
 
 .ready .text-1 h3 {
   margin-bottom: 14px;
@@ -211,18 +200,16 @@ text-align: center;
   margin-top: 20px;
 }
 
-
-.ready .text-1 p{
+.ready .text-1 p {
   padding: 0px 15px;
   margin-left: 60px;
   font-size: 16px;
   font-style: Poppins, sans-serif;
   color: #87909E;
   text-align: left;
-
 }
 
-.ready .text-2 p{
+.ready .text-2 p {
   padding: 0px 15px;
   margin-left: 60px;
   font-size: 16px;
@@ -231,18 +218,17 @@ text-align: center;
   text-align: right;
 }
 
-.ready .text-1 .btn-hire{
+.ready .text-1 .btn-hire {
   margin-left: 80px;
   padding: 0px 30px;
   font-size: 16px;
 }
 
-.ready .text-2 .btn-hire{
-margin: auto;  
-float: right;
-padding: 0px 30px;
-font-size: 16px;
- 
+.ready .text-2 .btn-hire {
+  margin: auto;
+  float: right;
+  padding: 0px 30px;
+  font-size: 16px;
 }
 
 .ready img {
@@ -256,14 +242,12 @@ font-size: 16px;
   color: #30343b;
   margin: 0px 0px 20px;
   text-align: center;
-
 }
 
 .built p {
   font-size: 16px;
   color: #87909E;
   text-align: center;
-
 }
 
 .card-box {
@@ -271,17 +255,16 @@ font-size: 16px;
   z-index: -1;
 }
 
-.card-box p{
+.card-box p {
   text-align: left;
   font-family: Poppins, sans-serif;
-
 }
 
 .card-box .ceo {
   text-align: left;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  line-height: 20px; 
+  line-height: 20px;
 }
 
 .testimonial h3 {
@@ -291,29 +274,27 @@ font-size: 16px;
   color: #30343b;
   margin: 0px 0px 16px;
   text-align: center;
-
 }
 
-.testimonial img{
-border: 90%;
-height: 96px; 
-width: 96px;
-position: relative;
-margin-right: 150px;
-background-position: center;
-background-size: cover;
-border-color: #0C63FF !important;
-overflow: visible;
-/*margin-top: -48px;*/
+.testimonial img {
+  border: 90%;
+  height: 96px;
+  width: 96px;
+  position: relative;
+  margin-right: 150px;
+  background-position: center;
+  background-size: cover;
+  border-color: #0C63FF !important;
+  overflow: visible;
+  /*margin-top: -48px;*/
 }
 
-.info h6{
+.info h6 {
   font-size: 16px;
   color: #30343b;
   font-weight: 600;
   padding: 0px 15px 0px 15px;
   margin: 0% 20% 10px;
-
 }
 
 .info h3 {
@@ -322,8 +303,6 @@ overflow: visible;
   font-weight: 600;
   padding: 0px 15px;
   margin: 0% 20% 14px;
-
-
 }
 
 .info .text-muted {
@@ -333,9 +312,7 @@ overflow: visible;
   text-align: left;
   padding: 0px 15px;
   margin: 0% 20% 70px;
-  
 }
-
 
 .video .card-img-overlay {
   background-color: transparent;
@@ -353,16 +330,13 @@ overflow: visible;
   height: auto;
   display: block;
   padding: 50px 0px 0px;
-
 }
-
 
 .card-body .john {
   font-size: 14px;
   font-family: Poppins, sans-serif;
   color: #30343b;
   font-weight: bolder;
-  
 }
 
 .card-body p {
@@ -370,8 +344,6 @@ overflow: visible;
   font-family: Poppins, sans-serif;
   color: #87909E;
   margin: 0px 0px 7.5px;
-
-
 }
 
 .card-body .ceo {
@@ -421,6 +393,7 @@ overflow: visible;
   background-color: white;
   color: black;
 }
+
 /*Footer*/
 
 .footer-clean {
@@ -430,14 +403,9 @@ overflow: visible;
 }
 
 .footer-clean .right {
-position: relative;
-justify-content: right;}
-.footer-clean .right h3{
+  position: relative;
+  justify-content: right;
 }
-
-.footer-clean .right ul{
- 
-  }
 
 .footer-clean h3 {
   margin-top: 0;
@@ -445,7 +413,6 @@ justify-content: right;}
   font-weight: 600;
   font-size: 16px;
   color: black;
-  
 }
 
 .footer-clean ul {
@@ -454,13 +421,12 @@ justify-content: right;}
   line-height: 2.0;
   font-size: 14px;
   margin-bottom: 0;
-  }
+}
 
 .footer-clean ul a {
   color: inherit;
   text-decoration: none;
   opacity: 0.8;
-
 }
 
 .footer-clean ul a:hover {
@@ -468,7 +434,7 @@ justify-content: right;}
 }
 
 .footer-clean .social {
- text-align: right;
+  text-align: right;
 }
 
 @media (max-width:767px) {
@@ -480,7 +446,7 @@ justify-content: right;}
 
 @media (max-width: 768px) {
   .footer-clean .item.social {
-   text-align: center;
+    text-align: center;
   }
 }
 
@@ -494,10 +460,6 @@ justify-content: right;}
   text-align: center;
   float: left;
   margin-top: 10px;
-
-}
-
-.footer-clean .social .icon {
 }
 
 .footer-clean .item.social>a:hover {
@@ -512,11 +474,8 @@ justify-content: right;}
 
 @media (max-width:767px) {
   .footer-clean .item.social>a {
-    margin-top: 10px;  }
-}
-
-
-.footer-clean .img-footer {
+    margin-top: 10px;
+  }
 }
 
 .footer-clean .copyright {
