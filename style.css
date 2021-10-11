@@ -208,6 +208,7 @@ text-align: center;
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 28px;
+  margin-top: 20px;
 }
 
 
@@ -230,14 +231,17 @@ text-align: center;
   text-align: right;
 }
 
-.ready .text-1 button{
+.ready .text-1 .btn-hire{
   margin-left: 80px;
+  padding: 0px 30px;
+  font-size: 16px;
 }
 
-/*fix button position */
 .ready .text-2 .btn-hire{
 margin: auto;  
 float: right;
+padding: 0px 30px;
+font-size: 16px;
  
 }
 
@@ -425,6 +429,16 @@ overflow: visible;
   color: #87909E;
 }
 
+.footer-clean .right {
+position: relative;
+justify-content: right;}
+.footer-clean .right h3{
+}
+
+.footer-clean .right ul{
+ 
+  }
+
 .footer-clean h3 {
   margin-top: 0;
   margin-bottom: 12px;
@@ -437,7 +451,7 @@ overflow: visible;
 .footer-clean ul {
   padding: 0;
   list-style: none;
-  line-height: 1.6;
+  line-height: 2.0;
   font-size: 14px;
   margin-bottom: 0;
   }
@@ -446,7 +460,7 @@ overflow: visible;
   color: inherit;
   text-decoration: none;
   opacity: 0.8;
-  
+
 }
 
 .footer-clean ul a:hover {
@@ -477,9 +491,9 @@ overflow: visible;
   color: inherit;
   opacity: 0.75;
   line-height: 40px;
-  display: inline-block;
   text-align: center;
-  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
 
 }
 
