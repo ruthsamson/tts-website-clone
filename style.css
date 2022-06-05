@@ -8,6 +8,9 @@
   font-weight: 900;
 }
 
+body {
+  overflow-x: hidden;
+}
 /*NavBar*/
 
 .btn {
