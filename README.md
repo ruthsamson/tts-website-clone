@@ -6,7 +6,9 @@ A clone of Tech Talent South's Website
 
 ## 📸 Project Screenshots
 
-<img width="800" alt="connect-four" src="https://user-images.githubusercontent.com/89995514/172069728-e11024ce-5a65-4f6b-8730-d553f690ec64.png">
+<img width="800" alt="tts-webiste-clone" src="https://user-images.githubusercontent.com/89995514/172070135-bd834516-de09-46d3-ba7d-ded753e060ea.png">
+<img width="800" alt="tts-webiste-clone-2" src="https://user-images.githubusercontent.com/89995514/172070138-8b59041b-e2ce-4da7-bc29-94f2d3b730b7.png">
+<img width="800" alt="tts-webiste-clone-3" src="https://user-images.githubusercontent.com/89995514/172070143-80f96eb3-d332-4d40-bc76-465d41b71a29.png">
 
 
 ## 📝 How to Use
