@@ -49,3 +49,6 @@ Download Live Server Extension and Go Live
 ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+## 👏 Collaborators
+[![Contibutor Tag](https://github.com/ruthsamson.png?size=50)](https://github.com/ruthsamson)
+[![Contibutor Tag](https://github.com/RockyDamico.png?size=50)](https://github.com/RockyDamico)
